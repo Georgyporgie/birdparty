@@ -1,0 +1,100 @@
+body {  
+color: white;
+background-color: black;
+text-align: center;
+}
+
+
+
+@keyframes myAnimation {
+ 0% {
+  border-radius: 50px;
+  top: 10px;
+  background-color: red;
+  transform: rotate(-360deg);
+ }
+ 
+ 10% {
+  border-radius: 50px;
+  top: 110px;
+  background-color: orange;
+ }
+ 
+ 20% {
+  border-radius: 50px;
+  top: 60px;
+  background-color: yellow;
+ }
+ 
+ 30% {
+  border-radius: 50px;
+  top: 210px;
+  background-color: green;
+ }
+ 
+ 40% {
+  border-radius: 50px;
+  top: 160px;
+  background-color: blue;
+  transform: rotate(180deg);
+ }
+ 
+ 50% {
+  border-radius: 50px;
+  top: 310px;
+  background-color: purple;
+ }
+ 
+ 60% {
+  border-radius: 50px;
+  top: 260px;
+  background-color: pink;
+ }
+ 
+ 70% {
+  border-radius: 50px;
+  top: 410px;
+  background-color: green;
+ }
+ 
+ 80% {
+  border-radius: 50px;
+  top: 360px;
+  background-color: turquoise;
+ }
+ 
+ 90% {
+  border-radius: 50px;
+  top: 510px;
+  background-color: yellow;
+  transform: rotate(-180deg);
+ }
+ 
+ 100% {
+  border-radius: 50px;
+  top: 10px;
+  background-color: red;
+ }
+}
+
+.anime {
+ animation-name: myAnimation;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+ position: relative;
+ height: 200px;
+ width: 200px;
+ display: inline-block;
+color: black;
+
+}
+
+.bird {
+ height: 200px;
+ width: 200px;
+ position: relative;
+ border-radius: 10px;
+ text-align: center;
+ margin: 0;
+ font-size: 150px;
+}
